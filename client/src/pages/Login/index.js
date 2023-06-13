@@ -35,8 +35,8 @@ function Login() {
   }, []);
 
   return (
-    <div className="grid grid-cols-2">
-      <div className="bg-primary h-screen flex flex-col justify-center items-center">
+    <div className="grid grid-cols-1 sm:grid-cols-2">
+      <div className="bg-primary h-screen  flex-col justify-center items-center hidden sm:flex">
         <div>
           <h1 className="text-5xl text-white text-center">            PROJECT-MANAGER
           </h1>
@@ -45,7 +45,7 @@ function Login() {
           </span>
         </div>
       </div>
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center h-screen">
         <div className="w-[420px]">
           <h1 className="text-2xl text-gray-700">LOGIN</h1>
           <Divider />

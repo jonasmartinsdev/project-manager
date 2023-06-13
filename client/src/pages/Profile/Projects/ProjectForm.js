@@ -63,7 +63,7 @@ function ProjectForm({ show, setShow, reloadData, project }) {
           <Input placeholder="Nome do Projeto" />
         </Form.Item>
         <Form.Item label="Descrição do Projeto" name="description">
-          <TextArea placeholder="Descrição do Projeto" />
+          <TextArea rows={4} placeholder="Descrição do Projeto" />
         </Form.Item>
       </Form>
     </Modal>

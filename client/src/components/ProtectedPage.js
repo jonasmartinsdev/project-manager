@@ -97,7 +97,7 @@ function ProtectedPage({ children }) {
             </Badge>
 
             <i
-              className="ri-logout-box-r-line ml-10 text-primary"
+              className="ri-logout-box-r-line ml-10 text-primary cursor-pointer"
               onClick={() => {
                 localStorage.removeItem("token");
                 navigate("/login");
